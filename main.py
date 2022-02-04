@@ -21,3 +21,7 @@ async def get_pub(name: str):
 @app.get("/irishpubs/api/{county}")
 async def get_pub(name: str):
     return {"message": f"Hello {name}"}
+
+@app.delete("/irishpubs/api/{id}")
+async def get_pub(name: str):
+    return {"message": f"Hello {name}"}
